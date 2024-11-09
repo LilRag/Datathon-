@@ -20,9 +20,13 @@ Identified the IQR range and removed the outliers.
 ### Exploratory Data Analysis
 
   Statistical summary of numerical columns
+  
   Distribution analysis
+  
   Correlation studies
+  
   Outlier detection
+  
   Predictive Modeling
 
   
@@ -60,11 +64,17 @@ Identified the IQR range and removed the outliers.
 ### Visualizations
 
   Histograms for numerical variables
+  
   Box plots for outlier analysis
+  
   Correlation heatmaps
+  
   Scatter plots for regression analysis
+  
   Residual plots for model diagnostics
+  
   Actual vs Predicted value plots
+  
   Distribution plots comparing cholesterol levels between group
   
 
