@@ -1,0 +1,72 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+*-checkpoint.ipynb
+.jupyter/
+jupyter_notebook_config.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv
+
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.h5
+
+# Output files
+outputs/*
+!outputs/.gitkeep
+figures/*
+!figures/.gitkeep
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.html
+
+# Model files
+models/*.pkl
+*.model
+*.joblib
+
+# Secrets and configurations
+config.ini
+credentials.json
+.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# IDE - If you occasionally use VS Code or PyCharm with notebooks
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Keep template or example notebooks if needed
+!example_notebook.ipynb
+!template.ipynb
